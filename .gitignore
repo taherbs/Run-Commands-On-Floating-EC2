@@ -1,0 +1,4 @@
+# ignore virtualenv
+.env/*
+classes/__pycache__
+config/settings.yml

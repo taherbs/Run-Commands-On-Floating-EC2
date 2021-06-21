@@ -1,0 +1,12 @@
+aws:
+  region: "ca-central-1"
+  ec2_instance:
+    disk_size: "300"
+    type: "g4dn.xlarge"
+    iam_arn: "arn:aws:iam::XXXX:instance-profile/AmazonSSMManagedInstanceCore"
+    vpc_id: "vpc-XXXX"
+    subnet_id: "subnet-XXXX"
+  ssm:
+    output_s3_bucket_name: "BUCKET_NAME" #bucket to store stdout/stderr log files
+    command_timeout: 86400 #timeout before abandoning the command - Max 48hours (172800s)
+    agent_up_wait_timeout: 1800 #The SSM agent need some time to get registered to AWS Systems Manager the it should not take more than 5mn
