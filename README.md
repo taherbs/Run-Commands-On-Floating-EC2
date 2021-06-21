@@ -7,7 +7,7 @@ The code will:
 * Run the command/script you provide via SSM.
 * Delete the EC2 instance once the job is done.
 
-This process could be used to schedule heavy tasks execution on Windows/Linux EC2 machines (like rendering and enormos builds) on AWS.
+This process could be used to schedule heavy tasks execution that cannot be containerized on Windows/Linux EC2 instances (like rendering and enormos builds) on AWS.
 
 ### Prerequisites
 
