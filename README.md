@@ -1,5 +1,5 @@
 # Run commands on Floating EC2 instances
-[![MIT licensed](https://img.shields.io/badge/license-apache2-blue.svg](https://github.com/taherbs/Run-Commands-On-Floating-EC2/master/LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-apache2-blue.svg)](https://github.com/taherbs/Run-Commands-On-Floating-EC2/master/LICENSE)
 
 This project allows you to run remote code on Floating EC2 instances.
 
